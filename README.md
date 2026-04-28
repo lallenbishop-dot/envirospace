@@ -1,8 +1,26 @@
-Envirospace Quote App v3
-
-Waynes-style printable proposal template with wildlife section removed.
-
-Netlify settings:
-Base directory: leave blank if files are in repo root. If inside this folder, use envirospace-quote-app-v3.
-Build command: npm run build
-Publish directory: dist
+{
+  "name": "envirospace-quote-app",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "android:init": "npx cap init EnvirospaceQuote com.envirospace.quote",
+    "android:add": "npx cap add android",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}

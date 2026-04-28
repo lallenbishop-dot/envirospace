@@ -1,2 +1,253 @@
 
-:root{--green:#004c19;--mid:#1f7a25;--black:#111827}*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;color:var(--black)}.app{max-width:1320px;margin:0 auto;padding:16px}.topbar,.card{background:#fff;border-radius:22px;box-shadow:0 8px 22px rgba(0,0,0,.06);padding:20px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px;flex-wrap:wrap}.topbar h1{margin:0;color:var(--green)}.topbar p{margin:4px 0 0;color:#64748b}.top-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.pill{background:#edf7ef;color:var(--green);padding:10px 14px;border-radius:999px;font-weight:800}.pill.total{background:var(--green);color:#fff}button{height:46px;border:0;border-radius:12px;background:var(--green);color:#fff;font-weight:800;padding:0 16px;cursor:pointer}button.secondary{background:#fff;color:var(--green);border:1px solid #ccd7cc}.workspace{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(320px,.75fr);gap:16px;align-items:start}.card h2{color:var(--green);margin:0 0 16px}.card h2:not(:first-child){margin-top:24px}.field-label{display:block;font-size:14px;font-weight:800;margin-bottom:7px;color:#374151}.grid{display:grid;gap:14px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.grid.four{grid-template-columns:repeat(4,minmax(0,1fr))}.summary-row{display:flex;justify-content:space-between;gap:12px;padding:11px 12px;border-radius:12px}.summary-row span{color:#4b5563}.summary-row.strong{background:#edf7ef}.warnings{margin-top:12px;display:grid;gap:8px}.warnings div{background:#fff7ed;color:#9a3412;padding:10px;border-radius:12px;font-weight:700}.proposal-page{width:100%;max-width:1050px;margin:22px auto;background:#fff;border:1px solid #d1d5db;box-shadow:0 10px 35px rgba(0,0,0,.10)}.proposal-header{display:grid;grid-template-columns:120px 1.2fr 1fr;align-items:center;gap:18px;padding:28px 28px 18px}.brand-seal{width:92px;height:92px;border:5px solid var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--green);font-size:46px;font-weight:900}.brand-name{font-size:58px;line-height:.9;color:var(--green);font-weight:1000;letter-spacing:-1px}.brand-sub{font-size:24px;font-weight:900;letter-spacing:4px;margin-top:8px}.brand-line{color:var(--green);font-size:16px;font-weight:900;letter-spacing:2px;margin-top:8px}.proposal-title{border-left:2px solid #aaa;padding-left:24px}.proposal-title h1{color:var(--green);font-size:34px;margin:0;line-height:1.05;font-weight:1000}.proposal-title p{margin:12px 0 0;font-size:18px}.proposal-divider{height:18px;background:linear-gradient(90deg,var(--green),#0a6b22,var(--green));position:relative}.proposal-divider:after{content:'';position:absolute;left:50%;top:0;transform:translateX(-50%);border-left:18px solid transparent;border-right:18px solid transparent;border-top:18px solid #fff}.proposal-grid{display:grid;grid-template-columns:1.35fr .95fr;gap:22px;padding:28px}.proposal-card{border:1px solid #b8c9b8;background:#fff}.proposal-card-title{background:linear-gradient(90deg,var(--green),#0e6b21);color:#fff;padding:13px 18px;font-size:24px;font-weight:1000;text-align:center}.proposal-card-body{padding:22px}.intro{font-size:18px;line-height:1.55;margin-top:0}.check-list{padding:0;margin:20px 0;list-style:none;display:grid;gap:16px;font-size:17px}.check-list li{position:relative;padding-left:42px}.check-list li:before{content:'✓';position:absolute;left:0;top:-3px;width:26px;height:26px;border-radius:50%;background:var(--green);color:white;display:flex;align-items:center;justify-content:center;font-weight:900}.breakdown{margin-top:28px;border:1px solid #bdc8bd}.breakdown-title{background:linear-gradient(90deg,var(--green),#16802a);color:#fff;padding:12px;text-align:center;font-size:22px;font-weight:1000}.breakdown table{width:100%;border-collapse:collapse;font-size:16px}.breakdown th{background:#36822e;color:#fff;text-align:left;padding:12px}.breakdown th:last-child,.breakdown td:last-child{text-align:right;font-weight:900}.breakdown td{padding:12px;border-top:1px solid #d6d6d6}.total-bar{display:grid;grid-template-columns:1fr 1.1fr;align-items:center}.total-bar div{background:#101418;color:#fff;padding:18px;font-size:22px;font-weight:1000}.total-bar strong{background:linear-gradient(90deg,#2d8c2c,#4a9d38);color:#fff;padding:14px 18px;font-size:42px;text-align:center}.service-feature{text-align:left}.icon-circle{width:105px;height:105px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-size:48px;margin:0 auto 12px}.service-feature h2{color:var(--green);font-size:32px;line-height:1.0;margin:8px 0 0;font-weight:1000}.service-feature h3{color:var(--green);font-size:22px;margin:6px 0 16px;font-weight:1000}.service-feature li{margin:12px 0;line-height:1.35;font-size:16px}.investment{background:linear-gradient(90deg,var(--green),#0a7022);color:#fff;padding:14px;text-align:center;margin-top:26px;font-size:24px;font-weight:1000}.service-feature.lower{margin-top:34px;border-top:1px solid #c7d2c7;padding-top:24px}.difference{margin:0 28px 0;border:1px solid #c5cfc5}.difference-title{background:linear-gradient(90deg,var(--green),#0e6b21);color:#fff;text-align:center;padding:8px;font-size:22px;font-weight:1000}.difference-items{display:grid;grid-template-columns:repeat(5,1fr);text-align:center;padding:20px 10px;gap:8px}.diff-icon{background:#197a24;color:#fff;border-radius:50%;width:58px;height:58px;display:flex;align-items:center;justify-content:center;margin:0 auto 9px;font-size:28px}.difference-items b{display:block;color:var(--green);font-size:14px;line-height:1.1}.difference-items span{display:block;font-size:13px;margin-top:4px}.proposal-footer-info{display:grid;grid-template-columns:1fr 1fr 1.15fr;gap:18px;padding:22px 28px;border-left:1px solid #c5cfc5;border-right:1px solid #c5cfc5;margin:0 28px}.proposal-footer-info>div{border-right:1px solid #c5cfc5;padding-right:16px;min-height:92px}.proposal-footer-info>div:last-child{border-right:0}.footer-icon{float:left;width:56px;height:56px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;margin-right:12px;font-size:28px}.proposal-footer-info b{color:var(--green);font-size:18px}.proposal-footer-info p{margin:4px 0;font-size:14px}.proposal-footer-info em{font-size:25px;color:var(--green);font-family:cursive}.signature-line{height:1px;background:#333;margin:8px 0 4px}.notes{background:#f5faf6;border:1px solid #c9dec9;padding:8px;border-radius:8px}.proposal-footer{background:linear-gradient(90deg,var(--green),#0e6b21);color:#fff;display:grid;grid-template-columns:.9fr 1fr 1.45fr;gap:14px;align-items:center;padding:13px 28px;font-size:20px;font-weight:900}.proposal-footer span:last-child{font-size:15px;text-align:right}@media(max-width:1000px){.workspace,.proposal-grid{grid-template-columns:1fr}.grid.three,.grid.four{grid-template-columns:repeat(2,minmax(0,1fr))}.proposal-header{grid-template-columns:1fr;text-align:center}.brand-seal{margin:auto}.proposal-title{border-left:0;border-top:2px solid #aaa;padding-left:0;padding-top:18px}.difference-items{grid-template-columns:repeat(2,1fr)}.proposal-footer-info,.proposal-footer{grid-template-columns:1fr}}@media print{body{background:#fff}.no-print{display:none!important}.app{padding:0;max-width:none}.proposal-page{width:100%;max-width:none;margin:0;border:0;box-shadow:none;page-break-inside:avoid}.proposal-header{padding:18px 20px 12px;grid-template-columns:90px 1.15fr 1fr}.brand-seal{width:72px;height:72px;font-size:36px;border-width:4px}.brand-name{font-size:46px}.brand-sub{font-size:18px}.brand-line{font-size:12px}.proposal-title h1{font-size:28px}.proposal-title p{font-size:15px}.proposal-grid{padding:18px;gap:16px}.proposal-card-title{font-size:19px;padding:10px}.proposal-card-body{padding:16px}.intro,.check-list{font-size:14px}.check-list{gap:10px;margin:12px 0}.breakdown-title,.difference-title{font-size:17px}.breakdown td,.breakdown th{padding:8px;font-size:13px}.total-bar div{font-size:16px;padding:12px}.total-bar strong{font-size:32px;padding:10px}.service-feature h2{font-size:24px}.service-feature h3{font-size:16px}.service-feature li{font-size:13px;margin:8px 0}.icon-circle{width:76px;height:76px;font-size:34px}.investment{font-size:17px;padding:10px}.difference{margin:0 18px}.difference-items{padding:12px 8px}.diff-icon{width:46px;height:46px;font-size:22px}.proposal-footer-info{margin:0 18px;padding:14px 18px}.proposal-footer{padding:10px 18px;font-size:16px}}
+import React, { useMemo, useState } from 'react';
+
+const PRICING = {
+  partialRate: 2.5,
+  fullRate: 5.75,
+  partialMaxDiscount: 0.5,
+  fullMaxDiscount: 1.0,
+  dehumidifier: { EO70: 3500, EO100: 3985 },
+  frenchDrain: 37,
+  sumpPump: 2400,
+  crawlspaceSanitation: 1.35,
+  spotTreatment: 875,
+  crawlDoor: 775,
+  insulationRemoval: 1.5,
+  debrisLt: 385,
+  debrisHvy: 815,
+  dumpster: 1590,
+  partialAnnual: 250,
+  fullAnnual: 299,
+  tripCharge: 250,
+};
+
+const money = (n) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(Number.isFinite(n) ? n : 0);
+const money2 = (n) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 2 }).format(Number.isFinite(n) ? n : 0);
+const num = (n) => new Intl.NumberFormat('en-US').format(Number.isFinite(n) ? n : 0);
+const toNum = (v) => { const n = Number(v); return Number.isFinite(n) ? n : 0; };
+
+const inputStyle = { width:'100%', height:46, borderRadius:12, border:'1px solid #d1d5db', padding:'0 12px', fontSize:16, boxSizing:'border-box', background:'#fff' };
+
+function Field({ label, children }) {
+  return <div><label className="field-label">{label}</label>{children}</div>;
+}
+
+function SelectField({ value, setValue, options }) {
+  return <select style={inputStyle} value={value} onChange={(e)=>setValue(e.target.value)}>{options.map(x => <option key={x} value={x}>{x}</option>)}</select>;
+}
+
+function SummaryRow({ label, value, strong }) {
+  return <div className={strong ? 'summary-row strong' : 'summary-row'}><span>{label}</span><b>{value}</b></div>;
+}
+
+export default function App() {
+  const [customerName, setCustomerName] = useState('');
+  const [propertyAddress, setPropertyAddress] = useState('');
+  const [salesRep, setSalesRep] = useState('');
+  const [repPhone, setRepPhone] = useState('205-362-8343');
+  const [quoteDate, setQuoteDate] = useState(new Date().toISOString().slice(0, 10));
+  const [quoteType, setQuoteType] = useState('Partial Encap');
+  const [sqFt, setSqFt] = useState('');
+  const [discount, setDiscount] = useState('');
+  const [frenchDrainQty, setFrenchDrainQty] = useState('');
+  const [sumpPump, setSumpPump] = useState('No');
+  const [crawlspaceSanitationQty, setCrawlspaceSanitationQty] = useState('');
+  const [spotTreatment, setSpotTreatment] = useState('No');
+  const [crawlDoorQty, setCrawlDoorQty] = useState('');
+  const [insulationRemovalQty, setInsulationRemovalQty] = useState('');
+  const [debrisRemoval, setDebrisRemoval] = useState('None');
+  const [dumpster, setDumpster] = useState('No');
+  const [maintenance, setMaintenance] = useState('None');
+  const [tripCharge, setTripCharge] = useState('No');
+  const [notes, setNotes] = useState('');
+
+  const calc = useMemo(() => {
+    const sf = toNum(sqFt);
+    const baseRate = quoteType === 'Full Encap' ? PRICING.fullRate : PRICING.partialRate;
+    const maxDiscount = quoteType === 'Full Encap' ? PRICING.fullMaxDiscount : PRICING.partialMaxDiscount;
+    const enteredDiscount = toNum(discount);
+    const appliedDiscount = Math.min(enteredDiscount, maxDiscount);
+    const finalRate = Math.max(baseRate - appliedDiscount, 0);
+    const coreQuote = sf * finalRate;
+    const dehumidifier = quoteType === 'Full Encap' ? (sf < 2100 ? 'EO70' : 'EO100') : 'None';
+    const dehumidifierTotal = dehumidifier === 'None' ? 0 : PRICING.dehumidifier[dehumidifier];
+    const frenchDrainTotal = toNum(frenchDrainQty) * PRICING.frenchDrain;
+    const sumpPumpTotal = sumpPump === 'Yes' ? PRICING.sumpPump : 0;
+    const sanitationTotal = toNum(crawlspaceSanitationQty) * PRICING.crawlspaceSanitation;
+    const spotTotal = spotTreatment === 'Yes' ? PRICING.spotTreatment : 0;
+    const doorTotal = toNum(crawlDoorQty) * PRICING.crawlDoor;
+    const insulationTotal = toNum(insulationRemovalQty) * PRICING.insulationRemoval;
+    const debrisTotal = debrisRemoval === 'LT' ? PRICING.debrisLt : debrisRemoval === 'HVY' ? PRICING.debrisHvy : 0;
+    const dumpsterTotal = dumpster === 'Yes' ? PRICING.dumpster : 0;
+    const maintTotal = maintenance === 'Partial Annual' ? PRICING.partialAnnual : maintenance === 'Full Annual' ? PRICING.fullAnnual : 0;
+    const tripTotal = tripCharge === 'Yes' ? PRICING.tripCharge : 0;
+    const addOnsTotal = dehumidifierTotal + frenchDrainTotal + sumpPumpTotal + sanitationTotal + spotTotal + doorTotal + insulationTotal + debrisTotal + dumpsterTotal + maintTotal + tripTotal;
+    const grandTotal = coreQuote + addOnsTotal;
+    const projectLines = [
+      { service: `${quoteType} (${num(sf)} sq ft @ ${money2(finalRate)}/sq ft)`, amount: coreQuote },
+      { service: dehumidifier !== 'None' ? `Aprilaire Dehumidifier ${dehumidifier} (Installed)` : '', amount: dehumidifierTotal },
+      { service: toNum(frenchDrainQty) > 0 ? `French Drain (${num(toNum(frenchDrainQty))} linear ft)` : '', amount: frenchDrainTotal },
+      { service: sumpPump === 'Yes' ? 'Sump Pump (includes Electric)' : '', amount: sumpPumpTotal },
+      { service: toNum(crawlspaceSanitationQty) > 0 ? `Crawlspace Sanitation (${num(toNum(crawlspaceSanitationQty))} sq ft)` : '', amount: sanitationTotal },
+      { service: spotTreatment === 'Yes' ? 'Spot Treatment' : '', amount: spotTotal },
+      { service: toNum(crawlDoorQty) > 0 ? `Crawl Space Door Installation (${num(toNum(crawlDoorQty))})` : '', amount: doorTotal },
+      { service: toNum(insulationRemovalQty) > 0 ? `Insulation Removal (${num(toNum(insulationRemovalQty))} sq ft)` : '', amount: insulationTotal },
+      { service: debrisRemoval !== 'None' ? `${debrisRemoval === 'LT' ? 'Light' : 'Heavy'} Clean-Out` : '', amount: debrisTotal },
+      { service: dumpster === 'Yes' ? 'Dumpster' : '', amount: dumpsterTotal },
+      { service: maintenance !== 'None' ? `Maintenance / Inspection - ${maintenance}` : '', amount: maintTotal },
+      { service: tripCharge === 'Yes' ? 'Trip Charge' : '', amount: tripTotal },
+    ].filter(x => x.service && x.amount > 0);
+    const warnings = [];
+    if (enteredDiscount > maxDiscount) warnings.push(`Discount capped at ${money2(maxDiscount)} per sq ft.`);
+    if (quoteType === 'Full Encap') warnings.push(`Full Encap auto-selected ${dehumidifier}.`);
+    if (toNum(frenchDrainQty) > 0 && sumpPump === 'No') warnings.push('Consider adding a sump pump when quoting French Drain.');
+    return { sf, baseRate, maxDiscount, appliedDiscount, finalRate, coreQuote, dehumidifier, addOnsTotal, grandTotal, projectLines, warnings };
+  }, [quoteType, sqFt, discount, frenchDrainQty, sumpPump, crawlspaceSanitationQty, spotTreatment, crawlDoorQty, insulationRemovalQty, debrisRemoval, dumpster, maintenance, tripCharge]);
+
+  const resetForm = () => {
+    setCustomerName(''); setPropertyAddress(''); setSalesRep(''); setQuoteDate(new Date().toISOString().slice(0, 10));
+    setQuoteType('Partial Encap'); setSqFt(''); setDiscount(''); setFrenchDrainQty(''); setSumpPump('No');
+    setCrawlspaceSanitationQty(''); setSpotTreatment('No'); setCrawlDoorQty(''); setInsulationRemovalQty('');
+    setDebrisRemoval('None'); setDumpster('No'); setMaintenance('None'); setTripCharge('No'); setNotes('');
+  };
+
+  const numberInput = (value, setter, step='1') => <input style={inputStyle} type="number" min="0" step={step} value={value} onChange={(e)=>setter(e.target.value)} />;
+
+  return (
+    <div className="app">
+      <div className="no-print topbar">
+        <div><h1>Envirospace Quote App</h1><p>Waynes-style proposal template • Wildlife section removed</p></div>
+        <div className="top-actions">
+          <span className="pill">Rate {money2(calc.finalRate)}/sq ft</span>
+          <span className="pill total">{money(calc.grandTotal)}</span>
+          <button onClick={() => window.print()}>Print Proposal</button>
+          <button className="secondary" onClick={resetForm}>New Quote</button>
+        </div>
+      </div>
+
+      <div className="workspace no-print">
+        <section className="card">
+          <h2>Customer & Job Info</h2>
+          <div className="grid two">
+            <Field label="Customer Name"><input style={inputStyle} value={customerName} onChange={(e)=>setCustomerName(e.target.value)} /></Field>
+            <Field label="Property Address"><input style={inputStyle} value={propertyAddress} onChange={(e)=>setPropertyAddress(e.target.value)} /></Field>
+            <Field label="Sales Rep"><input style={inputStyle} value={salesRep} onChange={(e)=>setSalesRep(e.target.value)} /></Field>
+            <Field label="Rep Phone"><input style={inputStyle} value={repPhone} onChange={(e)=>setRepPhone(e.target.value)} /></Field>
+            <Field label="Quote Date"><input style={inputStyle} type="date" value={quoteDate} onChange={(e)=>setQuoteDate(e.target.value)} /></Field>
+          </div>
+
+          <h2>Core Pricing</h2>
+          <div className="grid four">
+            <Field label="Quote Type"><SelectField value={quoteType} setValue={setQuoteType} options={['Partial Encap','Full Encap']} /></Field>
+            <Field label="Crawlspace Sq Ft">{numberInput(sqFt, setSqFt)}</Field>
+            <Field label="Discount / Sq Ft">{numberInput(discount, setDiscount, '0.01')}</Field>
+            <Field label="Auto Dehumidifier"><input style={{...inputStyle, background:'#f4f7f4', fontWeight:700}} readOnly value={calc.dehumidifier} /></Field>
+          </div>
+
+          <h2>Add-Ons & Remediation</h2>
+          <div className="grid three">
+            <Field label="French Drain (Linear Ft)">{numberInput(frenchDrainQty, setFrenchDrainQty)}</Field>
+            <Field label="Sump Pump"><SelectField value={sumpPump} setValue={setSumpPump} options={['No','Yes']} /></Field>
+            <Field label="Crawlspace Sanitation (Sq Ft)">{numberInput(crawlspaceSanitationQty, setCrawlspaceSanitationQty, '0.01')}</Field>
+            <Field label="Spot Treatment"><SelectField value={spotTreatment} setValue={setSpotTreatment} options={['No','Yes']} /></Field>
+            <Field label="Crawl Door Qty">{numberInput(crawlDoorQty, setCrawlDoorQty)}</Field>
+            <Field label="Insulation Removal (Sq Ft)">{numberInput(insulationRemovalQty, setInsulationRemovalQty, '0.01')}</Field>
+            <Field label="Debris Removal"><SelectField value={debrisRemoval} setValue={setDebrisRemoval} options={['None','LT','HVY']} /></Field>
+            <Field label="Dumpster"><SelectField value={dumpster} setValue={setDumpster} options={['No','Yes']} /></Field>
+            <Field label="Maintenance / Inspection"><SelectField value={maintenance} setValue={setMaintenance} options={['None','Partial Annual','Full Annual']} /></Field>
+            <Field label="Trip Charge"><SelectField value={tripCharge} setValue={setTripCharge} options={['No','Yes']} /></Field>
+          </div>
+
+          <h2>Proposal Notes</h2>
+          <textarea style={{...inputStyle, height:110, paddingTop:12}} value={notes} onChange={(e)=>setNotes(e.target.value)} />
+        </section>
+
+        <aside className="card summary">
+          <h2>Quote Summary</h2>
+          <SummaryRow label="Base Rate / Sq Ft" value={money2(calc.baseRate)} />
+          <SummaryRow label="Max Allowed Discount" value={money2(calc.maxDiscount)} />
+          <SummaryRow label="Applied Discount" value={money2(calc.appliedDiscount)} />
+          <SummaryRow label="Final Rate / Sq Ft" value={money2(calc.finalRate)} strong />
+          <SummaryRow label="Core Quote" value={money(calc.coreQuote)} />
+          <SummaryRow label="Add-Ons Total" value={money(calc.addOnsTotal)} />
+          <SummaryRow label="TOTAL INVESTMENT" value={money(calc.grandTotal)} strong />
+          {calc.warnings.length > 0 && <div className="warnings">{calc.warnings.map(w => <div key={w}>{w}</div>)}</div>}
+        </aside>
+      </div>
+
+      <Proposal customerName={customerName} propertyAddress={propertyAddress} salesRep={salesRep} repPhone={repPhone} quoteDate={quoteDate} quoteType={quoteType} notes={notes} calc={calc} />
+    </div>
+  );
+}
+
+function Proposal({ customerName, propertyAddress, salesRep, repPhone, quoteType, notes, calc }) {
+  return (
+    <div className="proposal-page">
+      <header className="proposal-header">
+        <div className="brand-seal">W</div>
+        <div className="brand-main"><div className="brand-name">WAYNES</div><div className="brand-sub">PEST CONTROL</div><div className="brand-line">PEST • TERMITE • WILDLIFE</div></div>
+        <div className="proposal-title"><h1>CRAWL SPACE<br/>ENCAPSULATION QUOTE</h1><p>Protecting your home from the ground up.</p></div>
+      </header>
+      <div className="proposal-divider"></div>
+
+      <main className="proposal-grid">
+        <section className="proposal-card main-scope">
+          <div className="proposal-card-title">{quoteType === 'Full Encap' ? 'FULL CRAWL SPACE ENCAPSULATION SYSTEM' : 'PARTIAL CRAWL SPACE ENCAPSULATION SYSTEM'}</div>
+          <div className="proposal-card-body">
+            <p className="intro">Our encapsulation system is designed to control moisture, improve air quality, and protect the structural integrity of your home for years to come.</p>
+            <ul className="check-list">
+              <li>Full crawl space sealing system</li>
+              <li>Installation of heavy-duty vapor barrier on floors and walls</li>
+              <li>Sealing of vents and entry points</li>
+              <li>Professional-grade dehumidifier installation when applicable</li>
+              <li>Moisture control to reduce humidity, mold risk, and wood rot</li>
+              <li>Improves energy efficiency and overall air quality in the home</li>
+            </ul>
+            <div className="breakdown">
+              <div className="breakdown-title">PROJECT BREAKDOWN</div>
+              <table><thead><tr><th>SERVICE</th><th>INVESTMENT</th></tr></thead><tbody>
+                {calc.projectLines.length ? calc.projectLines.map((line, idx) => <tr key={idx}><td>{line.service}</td><td>{money(line.amount)}</td></tr>) : <tr><td>Enter quote details to generate project breakdown</td><td>{money(0)}</td></tr>}
+              </tbody></table>
+              <div className="total-bar"><div>TOTAL INVESTMENT</div><strong>{money(calc.grandTotal)}</strong></div>
+            </div>
+          </div>
+        </section>
+
+        <section className="proposal-card services">
+          <div className="proposal-card-title">ADDITIONAL SERVICES</div>
+          <div className="proposal-card-body">
+            <div className="service-feature">
+              <div className="icon-circle">💧</div>
+              <h2>CRAWL SPACE<br/>SANITATION</h2><h3>(RECOMMENDED)</h3>
+              <ul><li>Apply antimicrobial treatment</li><li>Helps prevent mold and mildew</li><li>Addresses musty odors at the source</li><li>Promotes a cleaner, healthier crawl space environment</li></ul>
+              <div className="investment">INVESTMENT: {money(PRICING.crawlspaceSanitation * (calc.sf || 0))}</div>
+            </div>
+            <div className="service-feature lower">
+              <div className="icon-circle">🛡</div><h2>MOISTURE<br/>PROTECTION</h2><h3>(RECOMMENDED)</h3>
+              <ul><li>Protects structural integrity</li><li>Improves indoor air quality</li><li>Reduces risk of pest pressure</li></ul>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <section className="difference">
+        <div className="difference-title">THE WAYNES DIFFERENCE</div>
+        <div className="difference-items">
+          <div><div className="diff-icon">💧</div><b>ELIMINATES<br/>MOISTURE</b><span>Issues at the source</span></div>
+          <div><div className="diff-icon">🛡</div><b>PROTECTS<br/>STRUCTURAL INTEGRITY</b><span>of your home</span></div>
+          <div><div className="diff-icon">〰</div><b>IMPROVES<br/>AIR QUALITY</b><span>throughout your home</span></div>
+          <div><div className="diff-icon">🚫</div><b>PREVENTS<br/>PEST PROBLEMS</b><span>now and in the future</span></div>
+          <div><div className="diff-icon">⌂</div><b>INCREASES<br/>HOME EFFICIENCY & VALUE</b></div>
+        </div>
+      </section>
+
+      <section className="proposal-footer-info">
+        <div><div className="footer-icon">📅</div><b>NEXT STEPS</b><p>Scheduling is first-come, first-served. Contact us today to secure your spot on our schedule.</p></div>
+        <div><div className="footer-icon">☎</div><b>QUESTIONS?</b><p>We’re here to help. Call or text anytime—we’re happy to walk you through everything.</p></div>
+        <div><em>Thank you,</em><div className="signature-line"></div><b>{salesRep || 'RYAN'}</b><p>Waynes Pest Control</p><p>{customerName ? `Prepared for: ${customerName}` : ''}</p><p>{propertyAddress || ''}</p>{notes ? <p className="notes">{notes}</p> : null}</div>
+      </section>
+
+      <footer className="proposal-footer"><span>☎ {repPhone || '205-362-8343'}</span><span>callwaynes.com</span><span>INTEGRITY. CHARACTER. COURAGE. PERSEVERANCE.</span></footer>
+    </div>
+  );
+}
