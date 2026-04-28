@@ -1,9 +1,1 @@
-{
-  "name": "Envirospace Quote App",
-  "short_name": "Envirospace",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#004c19",
-  "icons": []
-}
+self.addEventListener('install',(e)=>{e.waitUntil(caches.open('envirospace-v3').then((c)=>c.addAll(['/'])))});self.addEventListener('fetch',(e)=>{e.respondWith(caches.match(e.request).then((r)=>r||fetch(e.request)))})

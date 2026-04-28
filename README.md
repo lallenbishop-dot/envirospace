@@ -1,1 +1,8 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="theme-color" content="#004c19" /><link rel="manifest" href="/manifest.webmanifest" /><title>Envirospace Quote App</title></head><body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body></html>
+Envirospace Quote App v3
+
+Waynes-style printable proposal template with wildlife section removed.
+
+Netlify settings:
+Base directory: leave blank if files are in repo root. If inside this folder, use envirospace-quote-app-v3.
+Build command: npm run build
+Publish directory: dist
